@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="929.92" height="584.27" viewBox="0 0 929.92 584.27">
+  <defs>
+    <radialGradient id="a" data-name="Unbenannter Verlauf 17" cx="712.06" cy="0.85" r="873.52" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff931e"/>
+      <stop offset="0.2" stop-color="#f27d1b"/>
+      <stop offset="0.61" stop-color="#d04513"/>
+      <stop offset="1" stop-color="#ad0b0b"/>
+    </radialGradient>
+  </defs>
+  <path d="M715.5,2.5c108,32,263,493,200,564s-898-89-915-217S607.5-29.5,715.5,2.5Z" transform="translate(-0.16 0.29)" fill="url(#a)"/>
+</svg>

@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Quicksand;
+  src: url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+}
+body {
+  background: #dadada;
+  font-family: Quicksand, sans-serif;
+  font-size: 1.25em;
+  overflow: hidden;
+}
+h1 {
+  font-size: 4.25rem;
+  margin-bottom: 4rem;
+}
+p {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 4rem;
+}
+.stonks {
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  align-items: center;
+  vertical-align: center;
+  width: 100vw;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+.stonks-left {
+  width: 50vw;
+}
+.stonks-right-container {
+  position: relative;
+}
+.stonks-right-container img {
+  width: 500px;
+}
+.stonks-right-container img#tek {
+  z-index: 0;
+}
+.stonks-right-container img#deko {
+  z-index: -1;
+  position: absolute;
+  top: 40%;
+}
+.btn {
+  display: inline-block;
+  color: black;
+  background-image: linear-gradient(-45deg, red, orange, yellow, lawngreen, cyan, blue, blueviolet);
+  background-size: 300% 300%;
+  padding: 1rem 3.14rem;
+  border-radius: 10px;
+  transition: background-color 0.25s ease-in-out;
+  text-decoration: none;
+  animation: gradient 3s infinite alternate-reverse ease-in-out;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
